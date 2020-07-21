@@ -1,0 +1,15 @@
+{
+  "name": "project_manager_API",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GuilhermeVSS/project_manager_API.git",
+  "author": "GuilhermeVSS <gvssilva@dcomp.ufs.br>",
+  "license": "MIT",
+  "scripts": {
+    "app": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}

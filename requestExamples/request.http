@@ -1,0 +1,38 @@
+GET http://localhost:3000/projects HTTP/1.1
+
+###
+
+GET http://localhost:3000/projects/3 HTTP/1.1
+
+
+###
+
+POST http://localhost:3000/projects HTTP/1.1
+content-type: application/json
+
+{
+    "id": "1",
+    "title": "projeto 1",
+    "tasks": []
+}
+
+###
+
+PUT http://localhost:3000/projects/0 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Projeto Antigo"
+}
+
+###
+
+POST http://localhost:3000/projects/0/tarefa1 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "tarefa 01"
+}
+###
+
+DELETE http://localhost:3000/projects/0 HTTP/1.1

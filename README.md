@@ -1,4 +1,4 @@
-# Mananger Projects 👾🧑‍💼
+# Manager Projects 👾🧑‍💼
 
 Mananger Projects requires [Node.js](https://nodejs.org/) to run.
 
@@ -12,7 +12,7 @@ $ yarn app
 
 # HTTP request
 
-This repositary has a folder named requestExamples, in this folder into the file *request.http* has some examples to how a request should be done. I`m using the VSCode Rest Cliente Plugin, if you're not, just use the url.
+This repository has a folder named requestExamples, in this folder into the file *request.http* has some examples to how a request should be done. I`m using the VSCode Rest Client Plugin, if you're not, just use the url.
 
 `
 GET http://urlexample.com/projects HTTP 1.1
